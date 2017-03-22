@@ -1,4 +1,5 @@
-FROM server-jre8
+#FROM server-jre8
+FROM softandbyte/server-jre8
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
